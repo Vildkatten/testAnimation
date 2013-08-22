@@ -1,0 +1,107 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+/*header */
+.header {
+  top: 0;
+  height: 200px;
+  background-color: #DA90C4;
+  width: 100%;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 160px;
+  background-color: black;
+  position: relative;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 80%;
+  padding: 0;
+  margin: 0;
+}
+
+.box
+{
+left: -1280px;
+width: 1280px;
+height:300px;
+background: #D8F0D1;
+position:relative;
+}
+
+.box2
+{
+left: -1280px;
+width:1280px;
+height:300px;
+background: #CDE9EE;
+position:relative;
+display: none;
+}
+
+.box3
+{
+left: -1280px;
+width:1280px;
+height:300px;
+background:#EEF5E0;
+position:relative;
+display: none;
+}
+
+.box4
+{
+left: -1280px;
+width:1280px;
+height:300px;
+background: #DDD5F1;
+position:relative;
+display: none;
+}
+
+.sbox {
+  top: 0;
+  left: -1000px;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  position: relative;
+}
+
+.sbox2 {
+  top: 0;
+  left: -1000px;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  position: relative;
+}
+
+.lead {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+}
