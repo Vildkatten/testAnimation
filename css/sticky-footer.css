@@ -16,6 +16,7 @@ h1 {
 html,
 body {
   height: 100%;
+  background-color: yellow;
   /* The html and body elements cannot have any padding or margin. */
 }
 
